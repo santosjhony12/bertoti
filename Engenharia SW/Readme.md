@@ -6,6 +6,6 @@ Aula 01 - 11/08/2023
 <h3>Comentário:</h3>
 
 > A engenharia de software é responsável pelo gerenciamento de projetos e qualidade do produto, tendo responsabilidades importantes como a tomada de decisões complexas baseadas em estimatimativas incertas.
-
+<br>
 - Escabilidade: Tem a ver com a escabilidade de oferta de serviço, ou seja, escalar um sistema que permite que o sistema seja acessado por milhares de pessoas ao mesmo tempo;
 - Trade-offs: Um jogo de perda e ganha - ganho uma coisa e perco outra (linguagem/banco/etc) - define a engenharia de software;
