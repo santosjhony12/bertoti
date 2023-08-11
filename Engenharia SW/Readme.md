@@ -11,3 +11,5 @@ Aula 01 - 11/08/2023
 - Trade-offs: Um jogo de perda e ganha - ganho uma coisa e perco outra (linguagem/banco/etc) - define a engenharia de software;
 - Requisitos funcionais: Ações do sistemas - Verbo;
 - Requisitos não funcionais: Qualidade do sistema - Adjetivo;
+
+> Pq a amazon vende em um minuto o que a americanas vende em um ano?
