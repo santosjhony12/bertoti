@@ -1,4 +1,7 @@
 # SOFTWARE ENGINEERING 
-> We see three critical differences between programming and software engineering: time, scale, and the trade-offs at play. On a software engineering project, engineers need to be more concerned with the passage of time and the eventual need for change. In a software engineering organization, we need to be more concerned about scale and efficiency, both for the software we produce as well as for the organization that is producing it. Finally, as software engineers, we are asked to make more complex decisions with higher-stakes outcomes, often based on imprecise estimates of time and growth.
 
-> A engenharia de software é responsável pelo gerenciamento do projeto e qualidade do produto, tendo responsabilidades importantes como a tomada de decisões complexas baseadas em estimatimativas incertas.
+> We see three critical differences between programming and software engineering: time, scale, and the trade-offs at play. On a software engineering project, engineers need to be more concerned with the passage of time and the eventual need for change. In a software engineering organization, we need to be more concerned about scale and efficiency, both for the software we produce as well as for the organization that is producing it. Finally, as software engineers, we are asked to make more complex decisions with higher-stakes outcomes, often based on imprecise estimates of time and growth. - <i> Livro: Engenharia de Software no Google</i>
+
+<h3>Comentário:</h3>
+
+> A engenharia de software é responsável pelo gerenciamento de projetos e qualidade do produto, tendo responsabilidades importantes como a tomada de decisões complexas baseadas em estimatimativas incertas.
