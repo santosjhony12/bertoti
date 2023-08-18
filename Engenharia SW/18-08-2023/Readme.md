@@ -1,6 +1,8 @@
 # ENGENHARIA DE SOFTWARE
 <h5>Aula 18/08/2023</h5>
 
+[Texto analisado - Clique aqui](https://www.nngroup.com/articles/ten-usability-heuristics/)
+
 <h3>Requisito não funcional tratado em aula: Usabilidade</h3>
 
 > Experiência do usuário (UX)<br>Para obter este requisito é necessário aplicar as 10 heurísticas.
