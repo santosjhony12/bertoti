@@ -14,4 +14,6 @@ Nome da classe, sempre com a primeira maiuscula<br>
 1º Quadrado = atributos<br>
 2º Quadrado = métodos<br>
 
-![image](https://github.com/santosjhony12/bertoti/assets/123211025/5846b22d-ba08-4144-a45c-fcb933349696)
+<h3>V.01</h3>
+
+![image](https://github.com/santosjhony12/bertoti/assets/123211025/3739dfcd-66c9-4a0f-ac27-2cad980c4e7e)
