@@ -2,6 +2,7 @@ package Models;
 
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Optional;
 
 public class Pessoa {
     private int idPessoa;
@@ -65,26 +66,5 @@ public class Pessoa {
             }else{
             return false;
         }
-    }
-
-    public Chamado visualizarChamadoPorCodigo(String codigoChamaodo){
-        Chamado chamadoEncontrado = null;
-        for(Chamado chamado : chamados){
-            if (chamado.getCodigo().equals(codigoChamaodo)){
-                chamadoEncontrado = chamado;
-            }
-        }
-        return chamadoEncontrado;
-    }
-
-    public List<Chamado> visualizarChamadosPorStatus(String status){
-        List<Chamado> chamadosEncontrados = new LinkedList<>();
-
-        for (Chamado chamado : chamados){
-            if(chamado.getCodCriador() == getIdPessoa() && chamado.getStatus().equals(status)) {
-                chamadosEncontrados.add(chamado);
-            }
-        }
-        return chamadosEncontrados;
     }
 }
