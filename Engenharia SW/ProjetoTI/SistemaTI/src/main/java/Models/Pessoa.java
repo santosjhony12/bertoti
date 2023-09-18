@@ -13,11 +13,12 @@ public class Pessoa {
 
     List<Chamado> chamados = new LinkedList<>();
 
-    public Pessoa(int idPessoa, String nomePessoa, String emailPessoa, String senhaPessoa) {
+    public Pessoa(int idPessoa, String nomePessoa, String emailPessoa, String senhaPessoa, boolean acessoADM) {
         this.idPessoa = idPessoa;
         this.nomePessoa = nomePessoa;
         this.emailPessoa = emailPessoa;
         this.senhaPessoa = senhaPessoa;
+        this.acessoADM = acessoADM;
     }
 
     public int getIdPessoa() {

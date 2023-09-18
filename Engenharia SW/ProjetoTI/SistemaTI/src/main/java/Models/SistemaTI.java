@@ -19,10 +19,10 @@ public class SistemaTI {
     public void criarChamado(Chamado chamado){
         chamados.add(chamado);
     }
-    public Chamado visualizarChamadoPorCodigo(String codigoChamaodo){
+    public Chamado visualizarChamadoPorCodigo(int codigoChamaodo){
         Chamado chamadoEncontrado = null;
         for(Chamado chamado : chamados){
-            if (chamado.getCodigo().equals(codigoChamaodo)){
+            if (chamado.getCodigo() == codigoChamaodo){
                 chamadoEncontrado = chamado;
             }
         }
@@ -50,18 +50,21 @@ public class SistemaTI {
         }
         return chamadosEncontrados;
     }
-    public void alterarStatusChamado(String status, String codChamado){
+    public void alterarStatusChamado(String status, int codChamado){
         for(Chamado chamado : chamados){
-            if(chamado.getCodigo().equals(codChamado)){
+            if(chamado.getCodigo() == codChamado){
                 chamado.setStatus(status);
             }
         }
     }
-    public void alterarPrioridadeChamado(String prioridade, String codigoChamado){
+    public void alterarPrioridadeChamado(String prioridade, int codigoChamado){
         for(Chamado chamado : chamados){
-            if(chamado.getCodigo().equals(codigoChamado)){
+            if(chamado.getCodigo() == codigoChamado){
                 chamado.setPrioridade(prioridade);
             }
         }
+    }
+    public void addPessoa(Pessoa pessoa){
+        pessoas.add(pessoa);
     }
 }

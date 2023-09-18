@@ -4,17 +4,16 @@ import java.time.LocalDate;
 import java.util.Date;
 
 public class Chamado {
-    private String codigo;
+    private int codigo;
     private String titulo;
-    private Date dataCriacao;
+    private LocalDate dataCriacao;
     private String prioridade;
     private String status;
     private String descricao;
     private int codCriador;
     private int codResponsavel;
-    private int chamadoCounter = 1;
 
-    public Chamado(String codigo, String titulo, Date dataCriacao, String prioridade, String status, String descricao, int codCriador, int codResponsavel) {
+    public Chamado(int codigo, String titulo, LocalDate dataCriacao, String prioridade, String status, String descricao, int codCriador, int codResponsavel) {
         this.codigo = codigo;
         this.titulo = titulo;
         this.dataCriacao = dataCriacao;
@@ -25,11 +24,11 @@ public class Chamado {
         this.codResponsavel = codResponsavel;
     }
 
-    public String getCodigo() {
+    public int getCodigo() {
         return codigo;
     }
 
-    public void setCodigo(String codigo) {
+    public void setCodigo(int codigo) {
         this.codigo = codigo;
     }
 
@@ -41,11 +40,11 @@ public class Chamado {
         this.titulo = titulo;
     }
 
-    public Date getDataCriacao() {
+    public LocalDate getDataCriacao() {
         return dataCriacao;
     }
 
-    public void setDataCriacao(Date dataCriacao) {
+    public void setDataCriacao(LocalDate dataCriacao) {
         this.dataCriacao = dataCriacao;
     }
 
@@ -82,12 +81,4 @@ public class Chamado {
     public void setCodResponsavel(int codResponsavel) {
         this.codResponsavel = codResponsavel;
     }
-
-    public String gerarCodigoNovoChamadoChamado(){
-        int codigo = chamadoCounter;
-        String newChamado = "NEW000"+codigo;
-        chamadoCounter++;
-        return newChamado;
-    }
-
 }
