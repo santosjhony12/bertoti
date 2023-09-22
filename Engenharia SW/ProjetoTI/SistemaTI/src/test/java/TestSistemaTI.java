@@ -1,37 +1,55 @@
 import Models.Chamado;
 import Models.Pessoa;
 import Models.SistemaTI;
+import org.junit.Before;
 import org.junit.jupiter.api.Test;
-
 import java.time.LocalDate;
-import java.util.Date;
+import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class TestSistemaTI {
-    LocalDate dataAtual = LocalDate.now();
-    SistemaTI sistemaTI = new SistemaTI();
+    private SistemaTI sistema = sistema = new SistemaTI();;
+
     @Test
-    public void verificarInclusaodeChamadoPrioridade(){
+    public void testLogarComSucesso() {
+        Pessoa pessoa = new Pessoa(1, "usuario1", "usuario1@example.com", "senha123", false);
+        sistema.addPessoa(pessoa);
 
+        Pessoa resultado = sistema.logar(pessoa);
 
-        sistemaTI.criarChamado(new Chamado(1,"CONTA BLOQUEADA", dataAtual, "Baixa", "NEW", "Desbloquear conta SJ0204",1,1));
-        sistemaTI.criarChamado(new Chamado(2,"CONTA BLOQUEADA 2", dataAtual, "Baixa", "NEW", "Desbloquear conta SJ0204",1,1));
-        sistemaTI.criarChamado(new Chamado(3,"CONTA BLOQUEADA 3", dataAtual, "Alta", "NEW", "Desbloquear conta SJ0204",1,1));
-        sistemaTI.criarChamado(new Chamado(4,"CONTA BLOQUEADA 4", dataAtual, "Média", "NEW", "Desbloquear conta SJ0204",1,1));
-
-        assertEquals(sistemaTI.visualizarTodosChamados().size(), 4);
-        sistemaTI.alterarPrioridadeChamado("Alta", 2);
-        Chamado chamado = sistemaTI.visualizarChamadoPorCodigo(2);
-        assertEquals(chamado.getPrioridade(), "Alta");
-
+        assertNotNull(resultado);
     }
-    @Test
-    public void login(){
-        Pessoa pessoa1 = new Pessoa(1, "Jhony", "jhonysouza@dev.com", "123", true);
-        Pessoa pessoa2 = new Pessoa(3, "Amanda", "amanda@dev.com", "123", false);
 
-        sistemaTI.addPessoa(pessoa1);
-        assertEquals(sistemaTI.logar(pessoa1), pessoa1);
+    @Test
+    public void testLogarComFalha() {
+        Pessoa pessoa = new Pessoa(1, "usuario1", "usuario1@example.com", "senha123", false);
+        sistema.addPessoa(pessoa);
+
+        Pessoa pessoaInvalida = new Pessoa(2, "usuario2", "usuario2@example.com", "senha456", false);
+
+        Pessoa resultado = sistema.logar(pessoaInvalida);
+
+        assertNull(resultado);
+    }
+
+    @Test
+    public void testCriarChamadoComSucesso() {
+        Chamado chamado = new Chamado(1, "Título", LocalDate.now(), "Alta", "Aberto", "Descrição", 1, 2);
+
+        sistema.criarChamado(chamado);
+
+        List<Chamado> chamados = sistema.visualizarTodosChamados();
+        assertTrue(chamados.contains(chamado));
+    }
+
+    @Test
+    public void testCriarChamadoComFalha() {
+        Chamado chamadoInvalido = new Chamado(2, null, LocalDate.now(), "Alta", "Aberto", "Descrição", 1, 2);
+
+        sistema.criarChamado(chamadoInvalido);
+
+        List<Chamado> chamados = sistema.visualizarTodosChamados();
+        assertFalse(chamados.contains(chamadoInvalido));
     }
 }

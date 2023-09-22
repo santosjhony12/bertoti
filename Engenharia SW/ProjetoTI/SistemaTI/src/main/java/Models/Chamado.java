@@ -15,7 +15,9 @@ public class Chamado {
 
     public Chamado(int codigo, String titulo, LocalDate dataCriacao, String prioridade, String status, String descricao, int codCriador, int codResponsavel) {
         this.codigo = codigo;
-        this.titulo = titulo;
+        if (titulo == null) {
+            throw new IllegalArgumentException("O campo 'titulo' não pode ser nulo.");
+        }
         this.dataCriacao = dataCriacao;
         this.prioridade = prioridade;
         this.status = status;
