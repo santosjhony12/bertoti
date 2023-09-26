@@ -104,3 +104,34 @@ Atividade 4
 <h2>Caso de Uso - Sistema de Chamados de TI</h2>
 
 ![Diagrama sem nome drawio (1)](https://github.com/santosjhony12/bertoti/assets/123211025/8019e0cd-ce05-46d7-a002-175769d37743)
+
+
+
+## AULA - DIAGRAMA DE CLASSES
+
+List = new LinkedList<>
+
+.add() - adiciona 
+
+for(Carro carro:carros){}
+
+(-) private
+
+(+) public
+
+Nome da classe, sempre com a primeira maiuscula<br>
+1º Quadrado = atributos<br>
+2º Quadrado = métodos<br>
+
+<h3>V.01</h3>
+
+![image](https://github.com/santosjhony12/bertoti/assets/123211025/3739dfcd-66c9-4a0f-ac27-2cad980c4e7e)
+
+
+<h3>V.02</h3>
+
+![image](https://github.com/santosjhony12/bertoti/assets/123211025/eab30f15-1ec5-4277-8299-1d6c42aa866c)
+
+<h3>V.03</h3>
+
+![image](https://github.com/santosjhony12/bertoti/assets/123211025/bc9b06fd-018e-4ccd-82da-e34259d072eb)
