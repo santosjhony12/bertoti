@@ -17,7 +17,11 @@ public class SistemaTI {
     }
 
     public void criarChamado(Chamado chamado){
-        chamados.add(chamado);
+        if(chamado.getTitulo().equals(null)){
+            System.out.println("O título é obrigatório.");
+        }else{
+            chamados.add(chamado);
+        }
     }
     public Chamado visualizarChamadoPorCodigo(int codigoChamaodo){
         Chamado chamadoEncontrado = null;

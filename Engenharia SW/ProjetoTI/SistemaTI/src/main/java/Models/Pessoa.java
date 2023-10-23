@@ -2,55 +2,54 @@ package Models;
 
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Optional;
 
 public class Pessoa {
-    private int idPessoa;
-    private String nomePessoa;
-    private String emailPessoa;
-    private String senhaPessoa;
+    private int id;
+    private String nome;
+    private String email;
+    private String senha;
     private boolean acessoADM;
 
     List<Chamado> chamados = new LinkedList<>();
 
-    public Pessoa(int idPessoa, String nomePessoa, String emailPessoa, String senhaPessoa, boolean acessoADM) {
-        this.idPessoa = idPessoa;
-        this.nomePessoa = nomePessoa;
-        this.emailPessoa = emailPessoa;
-        this.senhaPessoa = senhaPessoa;
+    public Pessoa(int id, String nome, String email, String senha, boolean acessoADM) {
+        this.id = id;
+        this.nome = nome;
+        this.email = email;
+        this.senha = senha;
         this.acessoADM = acessoADM;
     }
 
-    public int getIdPessoa() {
-        return idPessoa;
+    public int getId() {
+        return id;
     }
 
-    public void setIdPessoa(int idPessoa) {
-        this.idPessoa = idPessoa;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public String getNomePessoa() {
-        return nomePessoa;
+    public String getNome() {
+        return nome;
     }
 
-    public void setNomePessoa(String nomePessoa) {
-        this.nomePessoa = nomePessoa;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
-    public String getEmailPessoa() {
-        return emailPessoa;
+    public String getEmail() {
+        return email;
     }
 
-    public void setEmailPessoa(String emailPessoa) {
-        this.emailPessoa = emailPessoa;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
-    public String getSenhaPessoa() {
-        return senhaPessoa;
+    public String getSenha() {
+        return senha;
     }
 
-    public void setSenhaPessoa(String senhaPessoa) {
-        this.senhaPessoa = senhaPessoa;
+    public void setSenha(String senha) {
+        this.senha = senha;
     }
 
     public boolean isAcessoADM() {
@@ -62,7 +61,7 @@ public class Pessoa {
     }
 
     public boolean comparar(Pessoa pessoa){
-        if (this.emailPessoa.equals(pessoa.getEmailPessoa()) && this.senhaPessoa.equals(pessoa.getSenhaPessoa())){
+        if (this.email.equals(pessoa.getEmail()) && this.senha.equals(pessoa.getSenha())){
             return true;
             }else{
             return false;

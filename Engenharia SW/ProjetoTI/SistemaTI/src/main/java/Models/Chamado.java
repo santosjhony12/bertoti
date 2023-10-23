@@ -11,19 +11,17 @@ public class Chamado {
     private String status;
     private String descricao;
     private int codCriador;
-    private int codResponsavel;
+    private int codAnalista;
 
-    public Chamado(int codigo, String titulo, LocalDate dataCriacao, String prioridade, String status, String descricao, int codCriador, int codResponsavel) {
+    public Chamado(int codigo, String titulo, LocalDate dataCriacao, String prioridade, String status, String descricao, int codCriador, int codAnalista) {
         this.codigo = codigo;
-        if (titulo == null) {
-            throw new IllegalArgumentException("O campo 'titulo' não pode ser nulo.");
-        }
+        this.titulo = titulo;
         this.dataCriacao = dataCriacao;
         this.prioridade = prioridade;
         this.status = status;
         this.descricao = descricao;
         this.codCriador = codCriador;
-        this.codResponsavel = codResponsavel;
+        this.codAnalista = codAnalista;
     }
 
     public int getCodigo() {
@@ -76,11 +74,11 @@ public class Chamado {
     public int getCodCriador(){return this.codCriador; }
     public void setCodCriador(int codCriador){ this.codCriador = codCriador; }
 
-    public int getCodResponsavel() {
-        return codResponsavel;
+    public int getCodAnalista() {
+        return codAnalista;
     }
 
-    public void setCodResponsavel(int codResponsavel) {
-        this.codResponsavel = codResponsavel;
+    public void setCodAnalista(int codAnalista) {
+        this.codAnalista = codAnalista;
     }
 }
