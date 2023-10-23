@@ -48,15 +48,27 @@ Aula 01 - 11/08/2023
 
 <h4>Heurística 1 - Visibility of system status</h4>
 
-> Erro: Carregamento de página sem informar o usuário do que está acontecendo  <br>Acerto: Whatsapp - Mostra o status quando o usuário digita, quando visualiza a mensagem, quando está gravando um áudio
+> Erro: Carregamento de página sem informar o usuário do que está acontecendo
+![image](https://github.com/santosjhony12/bertoti/assets/123211025/af7e6ec7-1e2e-438b-a527-d76792772ad0)
+
+> Acerto: Whatsapp - Mostra o status quando o usuário digita, quando visualiza a mensagem, quando está gravando um áudio
+![image](https://github.com/santosjhony12/bertoti/assets/123211025/a9456879-4f86-4dce-b711-a79bdf0156d8)
+
 
 <h4>Heurística 2 - Match between system and the real world</h4>
 
-> Erro: SErro 404 - Not page found<br>Acerto: Lojas de e-commerce - o carrinho de compras faz com que a experiência do usuário deixe ele mais próxima do mundo real.
+> Erro: Erro 404 - Not page found
+![image](https://github.com/santosjhony12/bertoti/assets/123211025/2ffff567-96f4-4c95-a49b-3815cb761229)
+
+> Acerto: Lojas de e-commerce - o carrinho de compras faz com que a experiência do usuário deixe ele mais próxima do mundo real.
+![image](https://github.com/santosjhony12/bertoti/assets/123211025/97a4e107-e600-482a-a6cd-914c49d28bc6)
+
 
 <h4>Heurística 3 - User control and freedom</h4>
 
-> Erro: Formulários de cadastros que não permitem a volta de uma sessão, e quando volta, há a perda de dados e faz com que o usuário preencha tudo novamente.<br> Acerto: O atalho de Ctrl+Z é um ótimo exemplo de saída.
+> Erro: Formulários de cadastros que não permitem a volta de uma sessão, e quando volta, há a perda de dados e faz com que o usuário preencha tudo novamente.<br>
+
+> Acerto: O atalho de Ctrl+Z é um ótimo exemplo de saída.
 
 <h4>Heurística 4 - Consistency and standards</h4> 
 
@@ -103,7 +115,13 @@ Atividade 4
 
 <h2>Caso de Uso - Sistema de Chamados de TI</h2>
 
+<h3>Versão 1</h3>
+
 ![Diagrama sem nome drawio (1)](https://github.com/santosjhony12/bertoti/assets/123211025/8019e0cd-ce05-46d7-a002-175769d37743)
+
+<h3>Versão 2</h3>
+
+![image](https://github.com/santosjhony12/bertoti/assets/123211025/969acd86-4b05-43b0-87a4-fc3ed9aee855)
 
 
 
