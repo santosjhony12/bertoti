@@ -153,3 +153,7 @@ Nome da classe, sempre com a primeira maiuscula<br>
 <h3>V.03</h3>
 
 ![image](https://github.com/santosjhony12/bertoti/assets/123211025/bc9b06fd-018e-4ccd-82da-e34259d072eb)
+
+<h3>V.04</h3>
+
+![image](https://github.com/santosjhony12/bertoti/assets/123211025/eee66132-1866-4799-a475-3ef95f82cbc8)
