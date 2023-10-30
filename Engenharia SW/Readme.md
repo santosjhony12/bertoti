@@ -48,27 +48,62 @@ Aula 01 - 11/08/2023
 
 <h4>Heurística 1 - Visibility of system status</h4>
 
-> Erro: Carregamento de página sem informar o usuário do que está acontecendo  <br>Acerto: Whatsapp - Mostra o status quando o usuário digita, quando visualiza a mensagem, quando está gravando um áudio
+> Erro: Carregamento de página sem informar o usuário do que está acontecendo
+![image](https://github.com/santosjhony12/bertoti/assets/123211025/af7e6ec7-1e2e-438b-a527-d76792772ad0)
+
+> Acerto: Whatsapp - Mostra o status quando o usuário digita, quando visualiza a mensagem, quando está gravando um áudio
+![image](https://github.com/santosjhony12/bertoti/assets/123211025/a9456879-4f86-4dce-b711-a79bdf0156d8)
+
 
 <h4>Heurística 2 - Match between system and the real world</h4>
 
-> Erro: SErro 404 - Not page found<br>Acerto: Lojas de e-commerce - o carrinho de compras faz com que a experiência do usuário deixe ele mais próxima do mundo real.
+> Erro: Erro 404 - Not page found
+![image](https://github.com/santosjhony12/bertoti/assets/123211025/2ffff567-96f4-4c95-a49b-3815cb761229)
+
+> Acerto: Lojas de e-commerce - o carrinho de compras faz com que a experiência do usuário deixe ele mais próxima do mundo real.
+![image](https://github.com/santosjhony12/bertoti/assets/123211025/97a4e107-e600-482a-a6cd-914c49d28bc6)
+
 
 <h4>Heurística 3 - User control and freedom</h4>
 
-> Erro: Formulários de cadastros que não permitem a volta de uma sessão, e quando volta, há a perda de dados e faz com que o usuário preencha tudo novamente.<br> Acerto: O atalho de Ctrl+Z é um ótimo exemplo de saída.
+> Erro: E-commerce que permitem a compra apenas com uma quantidade determinada de um produto, não podendo ser variavel(escolhida pelo usuário).<br>
+
+![image](https://github.com/santosjhony12/bertoti/assets/123211025/4de05df2-0393-4074-ace5-da1e4b5b25ca)
+
+
+> Acerto: Opções de voltar e confirmação da ação.
+
+![image](https://github.com/santosjhony12/bertoti/assets/123211025/43e3e746-abaf-4adf-9e4d-b6d46fea6d9f)
+
 
 <h4>Heurística 4 - Consistency and standards</h4> 
 
-> Erro: Inversão de cores (vermelho/verde) <br>Acerto: uso de ícones padrões (filtro, lupa)
+> Erro: Inversão de cores (vermelho/verde) <br>
+
+![image](https://github.com/santosjhony12/bertoti/assets/123211025/b66fe73d-544b-406f-86f1-6a2ec3d42c7c)
+
+
+> Acerto: uso de ícones padrões (filtro, lupa, notificação)
+
+![image](https://github.com/santosjhony12/bertoti/assets/123211025/d4f19b1b-2df9-48f2-a05f-b96b90d28211)
+
 
 <h4>Heurística 5 - Error prevention</h4>
 
-> Erro: Um sistema de pagamento online não possui validações adequadas nos campos de cartão de crédito, permitindo que os usuários insiram números inválidos ou incompletos sem qualquer feedback. Isso pode levar a transações falhas e frustração do usuário.<br>Acerto: Ao tentar enviar um formulário com campos obrigatórios vazios, o sistema exibe mensagens de erro claras e específicas, destacando os campos que precisam ser preenchidos para evitar erros antes de submeter os dados.
+> Erro: Sites que não possuem uma pré validade de CPF é um exemplo, fazendo com que o usuário fique confuso do que está colocando<br>
+
+![image](https://github.com/santosjhony12/bertoti/assets/123211025/eb947d35-8287-4570-abf2-6ca3603bd898)
+
+
+> Acerto: Ao tentar enviar um formulário com campos obrigatórios vazios, o sistema exibe mensagens de erro claras e específicas, destacando os campos que precisam ser preenchidos para evitar erros antes de submeter os dados.
+
+![image](https://github.com/santosjhony12/bertoti/assets/123211025/b1be246b-53a4-46b1-baa7-cdf18ea18ebc)
 
 <h4>Heurística 6 - Recognition rather than recall</h4>
 
-> Erro: Um aplicativo de lista de tarefas não exibe os ícones de ação ao lado de cada tarefa na visualização da lista, exigindo que os usuários memorizem ou adivinhem quais ações estão disponíveis para cada tarefa.<br>Acerto: Um aplicativo de calendário exibe ícones visíveis e intuitivos ao lado de cada evento na visualização do mês, permitindo que os usuários identifiquem rapidamente as ações disponíveis para cada evento sem a necessidade de lembrar ou adivinhar.
+> Erro: Um aplicativo de lista de tarefas não exibe os ícones de ação ao lado de cada tarefa na visualização da lista, exigindo que os usuários memorizem ou adivinhem quais ações estão disponíveis para cada tarefa.<br>
+
+> Acerto: Um aplicativo de calendário exibe ícones visíveis e intuitivos ao lado de cada evento na visualização do mês, permitindo que os usuários identifiquem rapidamente as ações disponíveis para cada evento sem a necessidade de lembrar ou adivinhar.
 
 <h4>Heurística 7 - Flexibility and efficiency of use</h4>
 
@@ -103,7 +138,13 @@ Atividade 4
 
 <h2>Caso de Uso - Sistema de Chamados de TI</h2>
 
+<h3>Versão 1</h3>
+
 ![Diagrama sem nome drawio (1)](https://github.com/santosjhony12/bertoti/assets/123211025/8019e0cd-ce05-46d7-a002-175769d37743)
+
+<h3>Versão 2</h3>
+
+![image](https://github.com/santosjhony12/bertoti/assets/123211025/969acd86-4b05-43b0-87a4-fc3ed9aee855)
 
 
 
@@ -135,3 +176,7 @@ Nome da classe, sempre com a primeira maiuscula<br>
 <h3>V.03</h3>
 
 ![image](https://github.com/santosjhony12/bertoti/assets/123211025/bc9b06fd-018e-4ccd-82da-e34259d072eb)
+
+<h3>V.04</h3>
+
+![image](https://github.com/santosjhony12/bertoti/assets/123211025/eee66132-1866-4799-a475-3ef95f82cbc8)
