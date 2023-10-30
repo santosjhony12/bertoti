@@ -66,21 +66,44 @@ Aula 01 - 11/08/2023
 
 <h4>Heurística 3 - User control and freedom</h4>
 
-> Erro: Formulários de cadastros que não permitem a volta de uma sessão, e quando volta, há a perda de dados e faz com que o usuário preencha tudo novamente.<br>
+> Erro: E-commerce que permitem a compra apenas com uma quantidade determinada de um produto, não podendo ser variavel(escolhida pelo usuário).<br>
 
-> Acerto: O atalho de Ctrl+Z é um ótimo exemplo de saída.
+![image](https://github.com/santosjhony12/bertoti/assets/123211025/4de05df2-0393-4074-ace5-da1e4b5b25ca)
+
+
+> Acerto: Opções de voltar e confirmação da ação.
+
+![image](https://github.com/santosjhony12/bertoti/assets/123211025/43e3e746-abaf-4adf-9e4d-b6d46fea6d9f)
+
 
 <h4>Heurística 4 - Consistency and standards</h4> 
 
-> Erro: Inversão de cores (vermelho/verde) <br>Acerto: uso de ícones padrões (filtro, lupa)
+> Erro: Inversão de cores (vermelho/verde) <br>
+
+![image](https://github.com/santosjhony12/bertoti/assets/123211025/b66fe73d-544b-406f-86f1-6a2ec3d42c7c)
+
+
+> Acerto: uso de ícones padrões (filtro, lupa, notificação)
+
+![image](https://github.com/santosjhony12/bertoti/assets/123211025/d4f19b1b-2df9-48f2-a05f-b96b90d28211)
+
 
 <h4>Heurística 5 - Error prevention</h4>
 
-> Erro: Um sistema de pagamento online não possui validações adequadas nos campos de cartão de crédito, permitindo que os usuários insiram números inválidos ou incompletos sem qualquer feedback. Isso pode levar a transações falhas e frustração do usuário.<br>Acerto: Ao tentar enviar um formulário com campos obrigatórios vazios, o sistema exibe mensagens de erro claras e específicas, destacando os campos que precisam ser preenchidos para evitar erros antes de submeter os dados.
+> Erro: Sites que não possuem uma pré validade de CPF é um exemplo, fazendo com que o usuário fique confuso do que está colocando<br>
+
+![image](https://github.com/santosjhony12/bertoti/assets/123211025/eb947d35-8287-4570-abf2-6ca3603bd898)
+
+
+> Acerto: Ao tentar enviar um formulário com campos obrigatórios vazios, o sistema exibe mensagens de erro claras e específicas, destacando os campos que precisam ser preenchidos para evitar erros antes de submeter os dados.
+
+![image](https://github.com/santosjhony12/bertoti/assets/123211025/b1be246b-53a4-46b1-baa7-cdf18ea18ebc)
 
 <h4>Heurística 6 - Recognition rather than recall</h4>
 
-> Erro: Um aplicativo de lista de tarefas não exibe os ícones de ação ao lado de cada tarefa na visualização da lista, exigindo que os usuários memorizem ou adivinhem quais ações estão disponíveis para cada tarefa.<br>Acerto: Um aplicativo de calendário exibe ícones visíveis e intuitivos ao lado de cada evento na visualização do mês, permitindo que os usuários identifiquem rapidamente as ações disponíveis para cada evento sem a necessidade de lembrar ou adivinhar.
+> Erro: Um aplicativo de lista de tarefas não exibe os ícones de ação ao lado de cada tarefa na visualização da lista, exigindo que os usuários memorizem ou adivinhem quais ações estão disponíveis para cada tarefa.<br>
+
+> Acerto: Um aplicativo de calendário exibe ícones visíveis e intuitivos ao lado de cada evento na visualização do mês, permitindo que os usuários identifiquem rapidamente as ações disponíveis para cada evento sem a necessidade de lembrar ou adivinhar.
 
 <h4>Heurística 7 - Flexibility and efficiency of use</h4>
 
