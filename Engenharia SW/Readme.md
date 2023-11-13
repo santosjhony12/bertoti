@@ -101,25 +101,60 @@ Aula 01 - 11/08/2023
 
 <h4>Heurística 6 - Recognition rather than recall</h4>
 
-> Erro: Um aplicativo de lista de tarefas não exibe os ícones de ação ao lado de cada tarefa na visualização da lista, exigindo que os usuários memorizem ou adivinhem quais ações estão disponíveis para cada tarefa.<br>
+> Erro: Um aplicativo de lista de tarefas não exibe os ícones de ação ao lado de cada tarefa na visualização da lista, exigindo que os usuários memorizem ou adivinhem quais ações estão disponíveis para cada tarefa. /  Quando você esquece a senha de algum documento/ sistema e não há como você lembrar da senha<br>
 
-> Acerto: Um aplicativo de calendário exibe ícones visíveis e intuitivos ao lado de cada evento na visualização do mês, permitindo que os usuários identifiquem rapidamente as ações disponíveis para cada evento sem a necessidade de lembrar ou adivinhar.
+![image](https://github.com/santosjhony12/bertoti/assets/123211025/c6b6ec1b-4f1b-43e1-8be3-1aab6503eb61)
+
+> Acerto: Um aplicativo de calendário exibe ícones visíveis e intuitivos ao lado de cada evento na visualização do mês, permitindo que os usuários identifiquem rapidamente as ações disponíveis para cada evento sem a necessidade de lembrar ou adivinhar. // Google tradutor exibe todos os idiomas possiveis, não necessitando você memorizar.
+
+![image](https://github.com/santosjhony12/bertoti/assets/123211025/e39546a7-f47b-4330-a7e8-eed6685ee186)
+
 
 <h4>Heurística 7 - Flexibility and efficiency of use</h4>
 
-> Erro: Um software de edição de imagens não oferece atalhos de teclado para funções frequentemente usadas, forçando os usuários a navegar através de vários menus e submenus para realizar tarefas simples.<br>Acerto: Atalhos como ctrl+z
+> Erro: Um software de edição de imagens não oferece atalhos de teclado para funções frequentemente usadas, forçando os usuários a navegar através de vários menus e submenus para realizar tarefas simples.<br>
+
+![image](https://github.com/santosjhony12/bertoti/assets/123211025/1bc614fa-e2cb-46cb-9ab2-3eb12006e04d)
+
+> Acerto: Atalhos como ctrl+z
+
+![image](https://github.com/santosjhony12/bertoti/assets/123211025/b11b139b-30c8-4348-8e53-3765e32aacf0)
+
 
 <h4>Heurística 8 - Aesthetic and minimalist design</h4>
 
-> Erro: Um site de comércio eletrônico apresenta uma página inicial desordenada, com cores vibrantes, fontes diferentes e muitos elementos em destaque, tornando difícil para os usuários focarem nos produtos e navegarem pelo site.<br>Acerto: Um aplicativo de leitura possui um design limpo e minimalista, com uma paleta de cores suaves, tipografia legível e uma disposição organizada que destaca o conteúdo principal, proporcionando uma experiência agradável para os usuários.
+> Erro: Um site de comércio eletrônico apresenta uma página inicial desordenada, com cores vibrantes, fontes diferentes e muitos elementos em destaque, tornando difícil para os usuários focarem nos produtos e navegarem pelo site.<br>
+
+![image](https://github.com/santosjhony12/bertoti/assets/123211025/230a3f28-b759-452f-8db6-93631af69e6a)
+
+
+> Acerto: Um aplicativo de leitura possui um design limpo e minimalista, com uma paleta de cores suaves, tipografia legível e uma disposição organizada que destaca o conteúdo principal, proporcionando uma experiência agradável para os usuários.
+
+![image](https://github.com/santosjhony12/bertoti/assets/123211025/551ad0d2-8ec0-4f47-b646-9e79cbe5730e)
+
 
 <h4>Heurística 9 - Help users recognize, diagnose, and recover from errors</h4>
 
-> Erro: Um aplicativo de processamento de texto não fornece mensagens de erro claras quando o usuário tenta salvar um documento em uma pasta sem permissão de gravação, deixando o usuário sem saber o motivo da falha.<br>Acerto: Um aplicativo de edição de imagem exibe uma mensagem de erro descritiva quando um usuário tenta exportar um arquivo em um formato não suportado, indicando o formato correto e fornecendo instruções sobre como converter o arquivo.
+> Erro: Um aplicativo de processamento de texto não fornece mensagens de erro claras quando o usuário tenta salvar um documento em uma pasta sem permissão de gravação, deixando o usuário sem saber o motivo da falha.<br>
+
+![image](https://github.com/santosjhony12/bertoti/assets/123211025/74911769-1602-48b6-ad3c-3a1da3e30d5d)
+
+
+> Acerto: Um aplicativo de edição de imagem exibe uma mensagem de erro descritiva quando um usuário tenta exportar um arquivo em um formato não suportado, indicando o formato correto e fornecendo instruções sobre como converter o arquivo.
+
+![image](https://github.com/santosjhony12/bertoti/assets/123211025/2e4f655c-e08c-497e-9c45-1ff7d70c19a8)
 
 <h4>Heurística 10 - Help and documentation</h4>
 
-> Erro: Um aplicativo de gerenciamento financeiro não inclui nenhuma documentação ou ajuda interna, tornando difícil para os usuários entenderem como usar recursos avançados, como reconciliação de contas.<br>Acerto: Um software de edição de vídeo inclui tutoriais interativos integrados que guiam os usuários por etapas complexas, como adicionar efeitos de transição, oferecendo suporte contextual e facilitando o aprendizado de novos recursos.
+> Erro: Um aplicativo de gerenciamento financeiro não inclui nenhuma documentação ou ajuda interna, tornando difícil para os usuários entenderem como usar recursos avançados, como reconciliação de contas.<br>
+
+![image](https://github.com/santosjhony12/bertoti/assets/123211025/778c2993-ae89-450b-9bfe-1d74e2959b15)
+
+
+> Acerto: Um software de edição de vídeo inclui tutoriais interativos integrados que guiam os usuários por etapas complexas, como adicionar efeitos de transição, oferecendo suporte contextual e facilitando o aprendizado de novos recursos.
+
+![image](https://github.com/santosjhony12/bertoti/assets/123211025/a1e00dea-8450-497e-9573-547334bc10ff)
+
 
 # DIAGRAMAS UML - Unified Modeling Language
 <h5>21/08/2023</h5>
@@ -180,3 +215,5 @@ Nome da classe, sempre com a primeira maiuscula<br>
 <h3>V.04</h3>
 
 ![image](https://github.com/santosjhony12/bertoti/assets/123211025/eee66132-1866-4799-a475-3ef95f82cbc8)
+
+
