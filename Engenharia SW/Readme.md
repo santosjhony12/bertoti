@@ -216,4 +216,82 @@ Nome da classe, sempre com a primeira maiuscula<br>
 
 ![image](https://github.com/santosjhony12/bertoti/assets/123211025/eee66132-1866-4799-a475-3ef95f82cbc8)
 
+## TESTES
 
+```
+    @Test
+    public void testLogarComSucesso() {
+        Pessoa pessoa = new Pessoa(1, "usuario1", "usuario1@example.com", "senha123", false);
+        sistemaTI.addPessoa(pessoa);
+
+        Pessoa resultado = sistemaTI.logar(pessoa);
+
+        assertNotNull(resultado);
+    }
+```
+
+Objeto Pessoa | Esperado | Resultado (objeto) | RESULTADO FINAL
+----|----|----|----
+1, "usuario1", "usuario1@example.com", "senha123", false | 1, "usuario1", "usuario1@example.com", "senha123", false | 1, "usuario1", "usuario1@example.com", "senha123", false | 1, "usuario1", "usuario1@example.com", "senha123", false
+1, "usuario1", "usuario1@example.com", "senha123", true | 1, "usuario1", "usuario1@example.com", "senha123", true | 1, "usuario1", "usuario1@example.com", "senha123", false | Null
+
+
+```
+    @Test
+    public void testCriarChamadoComSucesso() {
+        Chamado chamado = new Chamado(1, "Título", LocalDate.now(), "Alta", "Aberto", "Descrição", 1, 2);
+
+        sistemaTI.criarChamado(chamado);
+
+        List<Chamado> chamados = sistemaTI.visualizarTodosChamados();
+        assertTrue(chamados.contains(chamado));
+    }
+```
+
+Objeto Chamado | chamados| RESULTADO FINAL
+----|----|----|
+1, "Título", LocalDate.now(), "Baixa", "New", "Computador BR não liga", 1, 1 | [chamado] | true
+1, "Título", LocalDate.now(), "Alta", "In Progress", "Computador BR não liga", 1, 1 | [] | false
+
+
+```
+    @Test
+    public void testVisualizarChamadosPorStatus() {
+        Chamado chamado1 = new Chamado(1, "Título", LocalDate.now(), "Baixa", "New", "Computador BR não liga", 1, 1);
+        Chamado chamado2 = new Chamado(2, "Título", LocalDate.now(), "Alta", "In Progress", "Computador BR7 não liga", 1, 4);
+        Chamado chamado3 = new Chamado(3, "Título", LocalDate.now(), "Alta", "In Progress", "Computador BR7 não liga", 1, 4);
+
+        sistemaTI.criarChamado(chamado1);
+        sistemaTI.criarChamado(chamado2);
+        sistemaTI.criarChamado(chamado3);
+
+        List<Chamado> chamadosEncontrados = sistemaTI.visualizarChamadosPorStatus("In Progress", 1);
+
+        assertEquals(2, chamadosEncontrados.size());
+        assertTrue(chamadosEncontrados.contains(chamado2));
+    }
+```
+
+Objeto Chamado | chamadosEncontrados | RESULTADO FINAL
+----|----|----|
+1, "Título", LocalDate.now(), "Baixa", "New", "Computador BR não liga", 1, 1 | 1, "Título", LocalDate.now(), "Baixa", "New", "Computador BR não liga", 1, 1 | true
+2, "Título", LocalDate.now(), "Alta", "In Progress", "Computador BR7 não liga", 1, 4 |2, "Título", LocalDate.now(), "Alta", "In Progress", "Computador BR7 não liga", 1, 2 | false
+
+
+```
+    @Test
+    public void testAlterarPrioridadeChamado() {
+        Chamado chamado = new Chamado(1, "Título", LocalDate.now(), "Baixa", "New", "Computador BR não liga", 1, 1);
+        sistemaTI.criarChamado(chamado);
+
+        sistemaTI.alterarPrioridadeChamado("Alta", 1);
+
+        Chamado chamadoAlterado = sistemaTI.visualizarChamadoPorCodigo(1);
+        assertEquals("Alta", chamadoAlterado.getPrioridade());
+    }
+```
+
+Objeto Chamado | novoChamadoAlterado | RESULTADO FINAL
+----|----|----|
+1, "Título", LocalDate.now(), "Baixa", "New", "Computador BR não liga", 1, 1 | 1, "Título", LocalDate.now(), "Alta", "New", "Computador BR não liga", 1, 1| true
+2, "Título", LocalDate.now(), "Baixa", "New", "Computador BR não liga", 1, 1 | 1, "Título", LocalDate.now(), "Alta", "New", "Computador BR não liga", 1, 1 | false
