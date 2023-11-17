@@ -27,7 +27,22 @@ Aula 01 - 11/08/2023
 
 <h3>Três exemplos de Trade-offs:</h3>
 
-> Comer rápido vs comer saúdavel <br> Sistema Operacional Linux (muito bom) vs acessibilidade (difícil uso) <br> Avanço da tecnologia vs ataques cybercriminosos
+
+Sistema Operacional: Windows vs. Linux
+
+> WINDOWS vs. LINUX:<br>
+Windows: O Windows é conhecido por sua interface amigável e pela facilidade de uso para usuários menos experientes. No entanto, essa usabilidade muitas vezes vem com uma menor capacidade de personalização em comparação com sistemas baseados em Linux.<br>
+Linux: Sistemas baseados em Linux, como o Ubuntu, oferecem uma ampla gama de opções de personalização, permitindo aos usuários ajustar quase todos os aspectos do sistema. No entanto, isso pode tornar o sistema mais complexo para usuários menos experientes.
+Navegadores da Web: Google Chrome vs. Mozilla Firefox
+
+> GOOGLE CHROME vs. MOZILLA FIREFOX:<br>
+Google Chrome: Conhecido por seu desempenho rápido, o Chrome muitas vezes consome mais recursos do sistema, como RAM.<br>
+Mozilla Firefox: O Firefox, por outro lado, pode ser mais eficiente em termos de consumo de recursos, mas pode não ser tão rápido em certas situações.
+Banco de Dados: MySQL vs. MongoDB
+
+> MYSQL vs. MONGODB:<br>
+MySQL: Um banco de dados relacional como o MySQL é consistente e robusto, garantindo integridade dos dados. No entanto, pode ser menos escalável horizontalmente em comparação com alguns bancos de dados NoSQL.<br>
+MongoDB: Como um banco de dados NoSQL, o MongoDB oferece uma escalabilidade horizontal mais fácil, mas pode sacrificar a consistência imediata dos dados em favor da disponibilidade e tolerância a partições (teorema CAP).
 
 <h3>Requisitos Funcionais :</h3>
 
