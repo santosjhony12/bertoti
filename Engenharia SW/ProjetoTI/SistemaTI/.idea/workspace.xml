@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bdca9f24-f9e2-4706-8b36-b9c73c5cc705" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestSistemaTI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSistemaTI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,9 +85,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestSistemaTI.testVisualizarChamadoPorCodigo" />
         <item itemvalue="JUnit.TestSistemaTI.testVisualizarChamadosPorStatus" />
         <item itemvalue="JUnit.TestSistemaTI.testCriarChamadoComFalha" />
-        <item itemvalue="JUnit.TestSistemaTI.testVisualizarChamadoPorCodigo" />
         <item itemvalue="JUnit.TestSistemaTI.testLogar" />
       </list>
     </recent_temporary>
