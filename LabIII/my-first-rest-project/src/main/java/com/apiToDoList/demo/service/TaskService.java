@@ -1,15 +1,14 @@
 package com.apiToDoList.demo.service;
 
 import com.apiToDoList.demo.entity.Task;
-import com.apiToDoList.demo.exception.EntityNotFoundExcepition;
+import com.apiToDoList.demo.exception.DataViolation;
+import com.apiToDoList.demo.exception.EntityNotFoundException;
 import com.apiToDoList.demo.repository.TaskRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import javax.swing.text.html.Option;
 import java.util.List;
-import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor
@@ -23,23 +22,25 @@ public class TaskService {
 
     @Transactional
     public Task criarTask(Task task) {
-        return taskRepository.save(task);
+        try{
+            return taskRepository.save(task);
+        }catch(org.springframework.dao.DataIntegrityViolationException ex){
+            throw new DataViolation("Todos os campos são obrigatórios");
+        }
     }
 
     @Transactional(readOnly = true)
-    public Optional<Task> buscarPorId(Long id){
+    public Task buscarPorId(Long id){
         return taskRepository.findById(id).orElseThrow(
-                () -> new EntityNotFoundExcepition(String.format("Não foi possível encontrar a task com o id %s.", id));
+                () -> new EntityNotFoundException(String.format("Não foi possível encontrar a task com o id %s.", id))
         );
+
     }
     @Transactional
-    public Task atualizar(Long id, Task task) {
-        Task taskEncontrada  = taskRepository.getById(id);
-        if(taskEncontrada != null){
-            return
+    public void deletePorIdUsuario(Long id) {
+        Task task = buscarPorId(id);
+        if(task!=null){
+            taskRepository.deleteById(id);
         }
-
-        return
-
     }
 }

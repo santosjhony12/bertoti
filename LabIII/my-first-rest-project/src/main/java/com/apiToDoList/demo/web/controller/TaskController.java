@@ -16,7 +16,7 @@ public class TaskController {
     private final TaskService taskService;
 
     @GetMapping
-    public ResponseEntity<List<Task>> getTaks(){
+    public ResponseEntity<List<Task>> getTasks(){
         return ResponseEntity.ok().body(taskService.buscarTasks());
     }
 
@@ -24,10 +24,13 @@ public class TaskController {
     public ResponseEntity<Task> create(@RequestBody Task task){
         return ResponseEntity.status(HttpStatus.CREATED).body(taskService.criarTask(task));
     }
-
-    @PutMapping("{id}")
-    public ResponseEntity<Task> update(@PathVariable Long id, @RequestBody Task task){
-
-        return ResponseEntity.ok().body(taskService.atualizar(task));
+    @GetMapping("/{id}")
+    public ResponseEntity<Task> findById(@PathVariable Long id){
+        return ResponseEntity.ok().body(taskService.buscarPorId(id));
+    }
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Void> deleteById(@PathVariable Long id){
+        taskService.deletePorIdUsuario(id);
+        return ResponseEntity.noContent().build();
     }
 }
