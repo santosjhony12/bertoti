@@ -23,7 +23,6 @@ public class Task {
     private String titulo;
     @Column(name = "descricao", length = 255, nullable = false)
     private String descricao;
-    @Column(name = "dataEntrega")
-    @JsonFormat(pattern = "yyyy-MM-dd")
-    private LocalDate dataEntrega;
+    @Column(name = "prioridade")
+    private String prioridade;
 }
