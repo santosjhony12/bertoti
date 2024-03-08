@@ -1,44 +1,32 @@
+import axios from 'https://cdn.skypack.dev/axios';
 
+const url = 'http://localhost:8080/tasks';
+let tasks = [];
 
-/*FAZER O POP UP*/
-var modal = document.getElementById('pop-up');
-var btn = document.getElementById('myBtn');
-var span = document.getElementsByClassName('close')[0];
-
-btn.onclick = function(){
-    modal.style.display = "block";
+function getTasks(url){
+    axios.get(url)
+    .then(function (response) {
+        console.log(response.data)
+    })
+    .catch(function (error) {
+        console.log(error)
+    });  
 }
+getTasks(url)
 
-span.onclick = function(){
-    modal.style.display = "none";
+let taskPost = {
+    "titulo": 'Tarefa 1',
+    "descricao": 'Tarefa 1',
+    "prioridade": 'Alta'
 }
-window.onclick = function(event){
-    if(event.target == modal){
-        modal.style.display= "none";
-    }
-}
-
-
-/*FINALIZADO O POP UP
-
-
-
-function Adicionar() {
-    axios.post('http://localhost:8080/tasks', { 
-    titulo: 'Meu Novo Título',
-    descricao: 'Descrição da tarefa',
-    prioridade: 'alta' }) .then(response => {
-        console.log("Task adicionada", response.data)
+function postTask(url, taskPost){
+    axios.post(url, taskPost)
+        .then(function(response){
+            console.log(response.data)
+        })
+    .catch(function (error){
+        console.log(error)
     })
 }
-btnSaveTask.addEventListener('click',Adicionar)*/
-var btnSaveTask = document.getElementById('saveTask');
 
-btnSaveTask.onclick = function getAllTask(){
-    axios.get('http://localhost:8080/tasks')
-    .then(response => {
-        console.log(response)
-    })
-    .catch(error => 
-        console.log(error))
-}
+postTask(taskPost)
