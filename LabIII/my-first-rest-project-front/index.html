@@ -4,54 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link  rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <title>To Do List</title>
 </head>
 <body>
-    <div class="div-head">
-        <h1>To do List</h1>
-        <button id="myBtn">Add new task</button>
-    </div>
+    <header>
+        <h1>Gerenciador de Tasks</h1>
+    </header>
+    
+    <h2>Cadastrar Task</h2>
+    <form>
+        <label for="titulo">Titulo: </label>
+        <input type="text" name="titulo" id="titulo">
 
-    <div class="pop-up" id="pop-up">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <h1 id="title">Add new task here</h1>
+        <label for="prioridade">Prioridade: </label>
+        <select name="prioridade" id="prioridade">
+            <option value="Low">Low</option>
+            <option value="Medium">Medium</option>
+            <option value="Hight">Medium</option>
+        </select>
 
-            <div class="form">
-            
-                <label for="task_name">Task Name:</label><br>
-                <input type="text" id="task_name" required>
-                <br>
-
-                <label for="task_priority" id="task_priority-lb">Priority:</label><br>
-                <select name="priority" id="task_priority">
-                    <option value="Low">Low</option>
-                    <option value="Medium">Medium</option>
-                    <option value="Hight">Medium</option>
-                </select>
-                <br>
-
-                <label for="task_description">Description:</label><br>
-                <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea>
-                <br>
-                <button id="saveTask">Save Task</button>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="task-not-important">
-
-    </div>
-
-    <div class="task-important">
-
-    </div>
-
-    <div class="task-urgent">
-
-    </div>
-
+        <label for="descricao">Descrição: </label>
+        <textarea id="descricao" name="descricao" rows="4" cols="50"></textarea>
+        
+        <button onclick="" id="buttonCadastrar">Cadastrar</button>
+    </form>
     <script type="module" src="index.js"></script>
 
 </body>

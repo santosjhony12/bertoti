@@ -37,7 +37,7 @@ public class TaskService {
 
     }
     @Transactional
-    public void deletePorIdUsuario(Long id) {
+    public void deletePorId(Long id) {
         Task task = buscarPorId(id);
         if(task!=null){
             taskRepository.deleteById(id);
