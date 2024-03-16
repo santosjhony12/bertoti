@@ -10,17 +10,37 @@ function getTasks(url){
     })
     .then(response => response.json())
     .then(data => {
-            tasks = data;
+            var divContainer = document.getElementById('container-tasks');
+            divContainer.innerHTML = '';
+
+            for (let i = 0; i < data.length ; i++){
+                
+                var novaDiv = document.createElement('div');
+                divContainer.appendChild(novaDiv);
+    
+                var titulo = document.createElement('h3');
+                var textoTitulo = document.createTextNode('Titulo: '+ data[i].titulo);
+                titulo.appendChild(textoTitulo);
+
+                var prioridade = document.createElement('h3');
+                var textoPrioridade = document.createTextNode('Prioridade: '+ data[i].prioridade);  
+                prioridade.appendChild(textoPrioridade);
+
+                var descricao = document.createElement('p');
+                var textoDescricao = document.createTextNode('Descrição: '+data[i].descricao)
+                descricao.appendChild(textoDescricao);
+    
+                novaDiv.appendChild(titulo)
+                novaDiv.appendChild(prioridade)
+                novaDiv.appendChild(descricao)
+            } 
+            
         })
 }
 
+getTasks(url)
 
-setTimeout(() => {
-    console.log(tasks);
-}, 1000);
-
-
-function postTasks(url, data){
+function postTask(url, data){
     fetch(url, {
         method: 'POST',
         mode: 'cors',
@@ -37,6 +57,7 @@ function postTasks(url, data){
     })
     .then(createdTask =>{
         console.log('Task criada: ', createdTask)
+        getTasks(url)
     }).catch(error => {
         console.log('Error', error)
     })
@@ -61,14 +82,22 @@ function deleteTask(url, id){
     })
 }
 
-function cadastrarTask(){
-    let titulo = document.getElementById('titulo');
-    let descricao = document.getElementById('descricao')
-    let prioridade = document.getElementById('prioridade')
+function cadastrarTask(event){
+    event.preventDefault();
+    let tituloTask = document.getElementById('titulo').value;
+    let descricaoTask = document.getElementById('descricao').value;
+    let prioridadeTask = document.getElementById('prioridade').value;
 
     const dados = {
-        titulo: titulo
+        titulo: tituloTask,
+        descricao: descricaoTask,
+        prioridade: prioridadeTask
     }
-    
+
+    postTask(url, dados);
+    document.getElementById('titulo').value = "";
+    document.getElementById('descricao').value = "";
 }
-document.getElementById('buttonCadastrar').addEventListener('click', cadastrarTask)
+
+
+
