@@ -43,4 +43,16 @@ public class TaskService {
             taskRepository.deleteById(id);
         }
     }
+    @Transactional
+    public Task atualizar(Long id, Task task){
+        Task taskFound = buscarPorId(id);
+
+        if(taskFound==null){
+            throw new EntityNotFoundException(String.format("Entidade com o id %s não encontrado",id));
+        }
+        taskFound.setTitulo(task.getTitulo());
+        taskFound.setDescricao(task.getDescricao());
+        taskFound.setPrioridade(task.getPrioridade());
+        return taskRepository.save(taskFound);
+    }
 }
