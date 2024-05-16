@@ -1,10 +1,10 @@
-package com.thehecklers.sburrestdemo;
+package com.warehouse.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SburRestDemoApplicationTests {
+class DemoApplicationTests {
 
 	@Test
 	void contextLoads() {

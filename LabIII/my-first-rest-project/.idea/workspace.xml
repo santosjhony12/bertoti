@@ -5,7 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af11381c-7ca5-49be-bcc3-d9e7842e15ef" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-back/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../my-first-rest-project-back/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-project/rest-project-back/src/main/java/com/warehouse/demo/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-project/rest-project-back/src/main/java/com/warehouse/demo/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-project/rest-project-back/src/main/java/com/warehouse/demo/enums/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest-project/rest-project-back/src/main/java/com/warehouse/demo/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-front/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-front/IMG/fundo.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-front/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-front/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-front/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sbur-rest-demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sbur-rest-demo/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sbur-rest-demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sbur-rest-demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sbur-rest-demo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sbur-rest-demo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sbur-rest-demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sbur-rest-demo/src/main/java/com/thehecklers/sburrestdemo/SburRestDemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sbur-rest-demo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sbur-rest-demo/src/test/java/com/thehecklers/sburrestdemo/SburRestDemoApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,22 +59,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.App.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/santo/OneDrive/Documentos/Faculdade/3º SEMESTRE/bertoti/LabIII/my-first-rest-project",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/santo/OneDrive/Documentos/Faculdade/3º SEMESTRE/bertoti/LabIII/sbur-rest-demo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.apiToDoList.demo.exception" />
@@ -108,7 +127,9 @@
       <workItem from="1711581449417" duration="1628000" />
       <workItem from="1711677160928" duration="796000" />
       <workItem from="1711745042045" duration="596000" />
-      <workItem from="1715822333302" duration="781000" />
+      <workItem from="1715822333302" duration="826000" />
+      <workItem from="1715823195979" duration="275000" />
+      <workItem from="1715823546627" duration="377000" />
     </task>
     <servers />
   </component>
