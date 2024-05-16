@@ -44,11 +44,11 @@ public class TaskService {
         }
     }
     @Transactional
-    public Task atualizar(Long id, Task task){
-        Task taskFound = buscarPorId(id);
+    public Task atualizar(Task task){
+        Task taskFound = buscarPorId(task.getId());
 
         if(taskFound==null){
-            throw new EntityNotFoundException(String.format("Entidade com o id %s não encontrado",id));
+            throw new EntityNotFoundException(String.format("Entidade com o id %s não encontrado",task.getId()));
         }
         taskFound.setTitulo(task.getTitulo());
         taskFound.setDescricao(task.getDescricao());

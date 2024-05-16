@@ -5,23 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af11381c-7ca5-49be-bcc3-d9e7842e15ef" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/apiToDoList/demo/ToDoListApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/apiToDoList/demo/entity/Task.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/apiToDoList/demo/exception/DataViolation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/apiToDoList/demo/exception/EntityNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/apiToDoList/demo/repository/TaskRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/apiToDoList/demo/service/TaskService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/apiToDoList/demo/web/controller/TaskController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/apiToDoList/demo/web/exception/ApiExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/apiToDoList/demo/web/exception/ErrorMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/apiToDoList/demo/TicketsApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-back/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-back/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-back/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-back/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-back/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-back/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-back/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-back/src/main/java/com/apiToDoList/demo/ToDoListApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-back/src/main/java/com/apiToDoList/demo/entity/Task.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-back/src/main/java/com/apiToDoList/demo/exception/DataViolation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-back/src/main/java/com/apiToDoList/demo/exception/EntityNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-back/src/main/java/com/apiToDoList/demo/repository/TaskRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-back/src/main/java/com/apiToDoList/demo/service/TaskService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-back/src/main/java/com/apiToDoList/demo/web/controller/TaskController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-back/src/main/java/com/apiToDoList/demo/web/exception/ApiExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-back/src/main/java/com/apiToDoList/demo/web/exception/ErrorMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-back/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-back/src/test/java/com/apiToDoList/demo/TicketsApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +65,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/santo/OneDrive/Documentos/Faculdade/3º SEMESTRE/bertoti/LabIII/my-first-rest-project-back",
+    "last_opened_file_path": "C:/Users/santo/OneDrive/Documentos/Faculdade/3º SEMESTRE/bertoti/LabIII/my-first-rest-project",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -111,7 +113,20 @@
       <updated>1708730350417</updated>
       <workItem from="1709162863003" duration="34000" />
       <workItem from="1709250238202" duration="3262000" />
-      <workItem from="1709330087560" duration="1047000" />
+      <workItem from="1709330087560" duration="390000" />
+      <workItem from="1709335788456" duration="1812000" />
+      <workItem from="1709855431593" duration="2651000" />
+      <workItem from="1710207305822" duration="724000" />
+      <workItem from="1710540798541" duration="5283000" />
+      <workItem from="1710622099264" duration="1328000" />
+      <workItem from="1710792364420" duration="2271000" />
+      <workItem from="1710807801909" duration="1830000" />
+      <workItem from="1711416854211" duration="681000" />
+      <workItem from="1711580119460" duration="705000" />
+      <workItem from="1711581449417" duration="1628000" />
+      <workItem from="1711677160928" duration="796000" />
+      <workItem from="1711745042045" duration="596000" />
+      <workItem from="1715822333302" duration="389000" />
     </task>
     <servers />
   </component>
