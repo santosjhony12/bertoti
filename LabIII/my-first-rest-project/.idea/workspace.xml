@@ -5,25 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af11381c-7ca5-49be-bcc3-d9e7842e15ef" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-back/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-back/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-back/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-back/Readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-back/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-back/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-back/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-back/src/main/java/com/apiToDoList/demo/ToDoListApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-back/src/main/java/com/apiToDoList/demo/entity/Task.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-back/src/main/java/com/apiToDoList/demo/exception/DataViolation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-back/src/main/java/com/apiToDoList/demo/exception/EntityNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-back/src/main/java/com/apiToDoList/demo/repository/TaskRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-back/src/main/java/com/apiToDoList/demo/service/TaskService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-back/src/main/java/com/apiToDoList/demo/web/controller/TaskController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-back/src/main/java/com/apiToDoList/demo/web/exception/ApiExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-back/src/main/java/com/apiToDoList/demo/web/exception/ErrorMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-back/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-back/src/test/java/com/apiToDoList/demo/TicketsApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-back/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../my-first-rest-project-back/Readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +45,7 @@
     "Application.App.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Merging main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/santo/OneDrive/Documentos/Faculdade/3º SEMESTRE/bertoti/LabIII/my-first-rest-project",
     "node.js.detected.package.eslint": "true",
@@ -126,7 +108,7 @@
       <workItem from="1711581449417" duration="1628000" />
       <workItem from="1711677160928" duration="796000" />
       <workItem from="1711745042045" duration="596000" />
-      <workItem from="1715822333302" duration="389000" />
+      <workItem from="1715822333302" duration="781000" />
     </task>
     <servers />
   </component>
