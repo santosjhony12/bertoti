@@ -1,103 +1,79 @@
 const url = 'http://localhost:8080/tasks';
-let tasks;
-function getTasks(url){
-    fetch(url, {
-        method: 'GET',
-        mode: 'cors',
-        headers: {
-            'Content-Type': 'application/json'
-        }
-    })
-    .then(response => response.json())
-    .then(data => {
-            var divContainer = document.getElementById('container-tasks');
-            divContainer.innerHTML = '';
+let id;
+async function getTasks(){
+    let response = await axios.get(url);
+    console.log(response.data)
 
-            for (let i = 0; i < data.length ; i++){
-                
-                var novaDiv = document.createElement('div');
-                divContainer.appendChild(novaDiv);
-    
-                var titulo = document.createElement('h3');
-                var textoTitulo = document.createTextNode('Titulo: '+ data[i].titulo);
-                titulo.appendChild(textoTitulo);
+    let div = document.getElementById('table-dados')
+    div.innerHTML = ''
 
-                var prioridade = document.createElement('h3');
-                var textoPrioridade = document.createTextNode('Prioridade: '+ data[i].prioridade);  
-                prioridade.appendChild(textoPrioridade);
+    for(let i of response.data){
+        var bloco = `
+            <tr>
+                <th scope="row">${i.id}</th>
+                <td id="titulo-${i.id}">${i.titulo}</td>
+                <td id="prioridade-${i.id}">${i.prioridade}</td>
+                <td id="descricao-${i.id}">${i.descricao}</td>
+                <td>
+                    <button type="button" class="btn btn-secondary" id="button-${i.id}" onclick="abrirModal(${i.id})">Editar</button>
+                    <button type="button" class="btn btn-danger" onclick="deleteTask(${i.id})">Excluir</button>
+                </td>
+            </tr>
+        `
+        div.insertAdjacentHTML("beforeend", bloco);
 
-                var descricao = document.createElement('p');
-                var textoDescricao = document.createTextNode('Descrição: '+data[i].descricao)
-                descricao.appendChild(textoDescricao);
-    
-                novaDiv.appendChild(titulo)
-                novaDiv.appendChild(prioridade)
-                novaDiv.appendChild(descricao)
-            } 
-            
-        })
+    }
 }
 
-getTasks(url)
-
-function postTask(url, data){
-    fetch(url, {
-        method: 'POST',
-        mode: 'cors',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(data)
-    })
-    .then(response => {
-        if(!response.ok){
-            throw new Error('Erro de network')
-        }
-        return response.json()
-    })
-    .then(createdTask =>{
-        console.log('Task criada: ', createdTask)
-        getTasks(url)
-    }).catch(error => {
-        console.log('Error', error)
-    })
+async function deleteTask(id){
+    let response = await axios.delete(`${url}/${id}`);
+    getTasks()
 }
-
-function deleteTask(url, id){
-    let newUrl = url+"/"+id;
-    fetch(newUrl, {
-        method: 'DELETE',
-        mode: 'cors',
-        headers: {
-            'Content-Type': 'application/json'
-        }
-    }).then(response => {
-        if(!response.ok){
-            throw new Error('Erro ao excluir tarefa')
-        }
-        console.log('Tarefa excluida com sucesso')
-    })
-    .catch(error => {
-        console.log('Error: ', error)
-    })
-}
-
-function cadastrarTask(event){
-    event.preventDefault();
-    let tituloTask = document.getElementById('titulo').value;
-    let descricaoTask = document.getElementById('descricao').value;
-    let prioridadeTask = document.getElementById('prioridade').value;
-
-    const dados = {
-        titulo: tituloTask,
-        descricao: descricaoTask,
-        prioridade: prioridadeTask
+async function cadastrar(){
+    let tituloInput = document.getElementById('title')
+    let descricaoInput = document.getElementById('description')
+    let prioridadeInput = document.getElementById('priority')
+    data = {
+        titulo: tituloInput.value, 
+        descricao: descricaoInput.value,
+        prioridade: prioridadeInput.value
     }
 
-    postTask(url, dados);
-    document.getElementById('titulo').value = "";
-    document.getElementById('descricao').value = "";
+    let response = await axios.post(url, data)
+
+    tituloInput.value = ''
+    descricaoInput.value = ''
+    prioridadeInput.value = ''
+    getTasks()
 }
 
+function abrirModal(id) {
+    let titulo = document.getElementById(`titulo-${id}`).textContent;
+    let descricao = document.getElementById(`descricao-${id}`).textContent;
+    let prioridade = document.getElementById(`prioridade-${id}`).textContent;
 
+    document.getElementById("updateTitulo").value = titulo;
+    document.getElementById("updateDescricao").value = descricao;
+    document.getElementById("updatePriority").value = prioridade;
+    this.id = id;
+    $('#myModal').modal('show');
+}
 
+async function update(){
+    let priorityInput = document.getElementById('updatePriority')
+    let descricaoInput = document.getElementById('updateDescricao')
+    let titleInput = document.getElementById('updateTitulo')
+
+    let dados = {
+        id: this.id,
+        titulo: titleInput.value,
+        descricao: descricaoInput.value,
+        prioridade: priorityInput.value
+    }
+    let response = await axios.post(url, dados)
+    $('#myModal').modal('hide');
+    getTasks()
+}
+window.onload = () => {
+    getTasks();
+};

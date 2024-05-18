@@ -8,32 +8,100 @@
     <title>To Do List</title>
 </head>
 <body>
-    <header>
-        <h1>Gerenciador de Tasks</h1>
-    </header>
-    
-    <h2>Cadastrar Task</h2>
-    <form>
-        <label for="titulo">Titulo: </label>
-        <input type="text" name="titulo" id="titulo">
+    <ul class="nav">
+        <li class="nav-item">
+          <h3>Gerenciador de Tasks</h3>
+        </li>
+      </ul>
 
-        <label for="prioridade">Prioridade: </label>
-        <select name="prioridade" id="prioridade">
-            <option value="Low">Low</option>
-            <option value="Medium">Medium</option>
-            <option value="Hight">Hight</option>
-        </select>
+      <div class="container">
 
-        <label for="descricao">Descrição: </label>
-        <textarea id="descricao" name="descricao" rows="4" cols="50"></textarea>
+        <h4 id="">Cadastre sua Task</h4>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Task's Title</label>
+              <input type="text" class="form-control" id="title" placeholder="Type the title">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Select the priority</label>
+              <select class="form-control" id="priority">
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+              </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Description</label>
+                <textarea type="text" class="form-control" id="description" placeholder="Type the Description"></textarea>
+            </div>
+            <button type="button" class="btn btn-primary" onclick="cadastrar()">Cadastrar</button>
+      
+      
+        <div id="div-dados">
+            <h4 id="">Registros de Tasks</h4>
         
-        <button onclick="cadastrarTask(event)" id="buttonCadastrar">Cadastrar</button>
-    </form>
+            <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Title</th>
+                    <th scope="col">Priority</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Actions</th>
+                  </tr>
+                </thead>
+                <tbody id="table-dados">
 
-    <div id="container-tasks">
+                </tbody>
+              </table>
+        </div>
+      </div>
 
-    </div>
+      <div class="modal" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+      
+            <!-- Cabeçalho do Modal -->
+            <div class="modal-header">
+              <h4 class="modal-title">Editar Tarefa</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+      
+            <!-- Corpo do Modal -->
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="titulo">Título:</label>
+                  <input type="text" class="form-control" id="updateTitulo">
+                </div>
+                <div class="form-group">
+                  <label for="prioridade">Prioridade:</label>
+                  <select class="form-control" id="updatePriority">
+                    <option value="Low">Low</option>
+                    <option value="Medium">Medium</option>
+                    <option value="High">High</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="descricao">Descrição:</label>
+                  <textarea class="form-control" id="updateDescricao"></textarea>
+                </div>
+              </form>
+            </div>
+      
+            <!-- Rodapé do Modal -->
+            <div class="modal-footer" id="button-update">
+              <button type="button" class="btn btn-success" id="btnSalvar" onclick="update()">Salvar</button>
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+     
     <script  src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>
 </html>

@@ -34,7 +34,7 @@ public class TaskController {
         taskService.deletePorId(id);
         return ResponseEntity.noContent().build();
     }
-    @PutMapping("/")
+    @PostMapping("/update")
     public ResponseEntity<Task> update(@RequestBody Task task){
         Task taskupdated = taskService.atualizar(task);
         return ResponseEntity.ok().body(taskupdated);

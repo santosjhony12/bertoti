@@ -5,26 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af11381c-7ca5-49be-bcc3-d9e7842e15ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../rest-project/rest-project-back/src/main/java/com/warehouse/demo/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest-project/rest-project-back/src/main/java/com/warehouse/demo/entity/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest-project/rest-project-back/src/main/java/com/warehouse/demo/enums/Categoria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rest-project/rest-project-back/src/main/java/com/warehouse/demo/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-front/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-front/IMG/fundo.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-front/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-front/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-first-rest-project-front/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sbur-rest-demo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sbur-rest-demo/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sbur-rest-demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sbur-rest-demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sbur-rest-demo/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sbur-rest-demo/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sbur-rest-demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sbur-rest-demo/src/main/java/com/thehecklers/sburrestdemo/SburRestDemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sbur-rest-demo/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sbur-rest-demo/src/test/java/com/thehecklers/sburrestdemo/SburRestDemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/apiToDoList/demo/web/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/apiToDoList/demo/web/controller/TaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rest-project/rest-project-back/src/main/java/com/warehouse/demo/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rest-project/rest-project-back/src/main/java/com/warehouse/demo/service/ProductService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +113,8 @@
       <workItem from="1715822333302" duration="826000" />
       <workItem from="1715823195979" duration="275000" />
       <workItem from="1715823546627" duration="377000" />
+      <workItem from="1715903132352" duration="491000" />
+      <workItem from="1715982958196" duration="4558000" />
     </task>
     <servers />
   </component>
