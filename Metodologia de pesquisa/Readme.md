@@ -2,8 +2,7 @@
 
 ## Introdução
 
-Me chamo Jhony. Tenho 19 anos.
-Faça uma breve introdução sobre você. Fale de sua formação e carreira. Caso aplicável, fale de publicações ou apresentações em eventos da área de computação. Inclua uma foto!
+Me chamo Jhony. Tenho 19 anos. Sou um desenvolvedor de software com uma paixão por criar soluções inovadoras e eficientes de software. Estou cursando tecnólogo em Banco de Dados na Fatec São José dos Campos, com formação técnica em Desenvolvimento de Sistemas pela Etec. Atualmente, sou estagiário de Gestão de Dados em uma multinacional líder na indústria do vidro, onde também atuei como aprendiz e estagiário na área de TI. Tenho familiaridade com metodologias ágeis como Scrum, que aplico em projetos para trabalhar em equipe e alcançar bons resultados.
 
 ## Contatos
 * [GIT](https://www.github.com/santosjhony12)
