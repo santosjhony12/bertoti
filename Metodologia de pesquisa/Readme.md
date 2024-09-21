@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/3259426c-c849-4a10-8e64-0e115e1e1ca9)# Jhony Santos de Souza
+# Jhony Santos de Souza
 
 ## Introdução
 
@@ -20,7 +20,7 @@ Fale sobre o projeto desenvolvido. Apresente a empresa parceira, o problema e a 
 [GIT](https://www.git.com)
 
 #### Tecnologias Utilizadas
-Apresente brevemente as tecnologias utilizadas. Uma tecnologia por linha. Indique qual a importância de cada tecnologia para o projeto.
+Nesse projeto, utilizei as ferramentas: Spring Boot para desenvolver o Back-end Web Server, MySQL para banco de dados relacional, BR-Modelos para modelagem de dados, Figma para prototipação de Wareframes, HTML, CSS e JS para Front-end, Jira e Excel para gerenciamento de projetos, Git para versionamento de projetos e Github para armazenamento e publicação de arquivos.
 
 #### Contribuições Pessoais
 - Durante o projeto desenvolvi como back-end, front-end  e Scrum master. Fui responsável por criação de endpoints de rastreabilidade de usuário dentro do sistema, processamento e leitura de arquivos CSV, padronização de estilos no front-end, estruturação dos modelos conceituais e lógicos de banco de dados e acompanhamento de desenvolvimento da equipe de programação. 
@@ -40,16 +40,21 @@ Apresente brevemente as tecnologias utilizadas. Uma tecnologia por linha. Indiqu
               Ao final do projeto, auxiliei os desenvolvedores fron-ends na padronização dos estilos das interfaces do sistema. Enfretei algumas dificuldades, já que não utilizamos nenhum framework de estilização, precisei replicar muito trecho de código em diversas telas, gerando um retrabalho do que já estava feito. Todavia, com refatorações e ajustes, consegui centralizar em arquivos CSS padrões para consumir em mais de uma tela, diminuindo o excesso de código duplicado no sistema.
       ![WhatsApp Image 2024-08-19 at 20 02 03](https://github.com/user-attachments/assets/2efd4a6d-8962-459b-a8f6-02c68a5731f2)
           </details>
+          
     - Modelos de Banco de Dados Conceituais e Lógicos
         <details>
               Contribui para o desenvolvimento dos modelos Conceituais e Lógicos de banco de dados. No primeiro momento, tive dificuldades para o modelo inicial, já que não possuia um entendimento completo e concreto do projeto. Todavia, com o progresso das Sprints foi possível ter uma visão mais ampla da aplicação facilitando o desenvolvimento do DER e entendimento dos relacionamentos entre as entidades de banco de dados. 
-        ![LOGICO_API_DOM_ROCK_V3_PNG](https://github.com/user-attachments/assets/5d28e1ce-ae8c-4c02-9a9c-2b96dc94c55f)
+      
+
+      ![LOGICO_API_DOM_ROCK_V3_PNG](https://github.com/user-attachments/assets/5d28e1ce-ae8c-4c02-9a9c-2b96dc94c55f)
         </details>
-    - Acompanhamento do desenvolvimento da equipe Scrum
-      <details>
+ 
+        
+  - Acompanhamento do desenvolvimento da equipe Scrum
+          <details>
               Nesse projeto, tive a oportunidade de trabalhar com a equipe como Scrum Master, ficando com atividades de gerenciamento de tasks e da equipe Scrum. Durante o processo, observei dificuldades nos desenvolvedores em quesitos técnicos, dessa forma, obtive a estratégia de rever as tasks e redistribui-las, contudo, auxiliando e reforçando o estudo das tecnologias.
-        ![image](https://github.com/user-attachments/assets/7f854631-3ed7-43d7-8999-0cf565d1572d)
-      </details>
+      ![image](https://github.com/user-attachments/assets/3259426c-c849-4a10-8e64-0e115e1e1ca9)
+          </details>
 
 
 #### Hard Skills
