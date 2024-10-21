@@ -9,15 +9,26 @@ Me chamo Jhony. Tenho 19 anos. Sou um desenvolvedor de software com uma paixão 
 * [LinkedIn](www.linkedin.com/in/jhonysouzadev)
 
 ## Meus Principais Conhecimentos
-Apresente seus principais conhecimentos. Foque nos conhecimentos que possui maior domínio e que deseja desenvolver durante sua carreira.
+Tenho conhecimento sólido em desenvolvimento web, utilizando frameworks como Django e Spring Boot para criação de aplicações robustas. No front-end, uso Vue.js com TypeScript, priorizando uma abordagem eficiente e reativa. Minha experiência com bancos de dados inclui MySQL para dados relacionais e MongoDB para dados NoSQL, aplicados de forma integrada em projetos como no uso do Oracle Cloud.
 
+No ambiente de desenvolvimento, utilizo Docker e WSL para garantir uma infraestrutura ágil e flexível. Também sou proficiente em automação e manipulação de dados com Power Query, Excel e VBA, onde integro fontes de dados de sistemas como SAP para gerar relatórios e KPIs para controle de produção.
+
+Adoto metodologias ágeis, especialmente Scrum, para gerenciamento de projetos, e já desenvolvi soluções de visualização de dados usando Power BI. Tenho experiência na visualização de mapas utilizando MapTiler, aplicados em projetos Vue.js, o que me permite lidar com projetos que envolvem tanto o back-end quanto o front-end de forma eficaz.
 
 ## Meus Projetos
 
-### Em 2021-2
-Fale sobre o projeto desenvolvido. Apresente a empresa parceira, o problema e a solução entregue pela equipe (mínimo de um parágrafo por item). Recomenda-se o uso de figuras (ou até mesmo vídeos) para ilustrar os principais projetos.
+### Em 2024-1
 
-[GIT](https://www.git.com)
+#### Empresa Parceira 🫱🏻‍🫲🏻
+O projeto foi realizado em parceria com a Dom Rock, uma empresa que possui uma arquitetura de processamento de dados em pipeline, utilizada para orquestrar dados e algoritmos de inteligência artificial, ou modelos matemáticos, de acordo com as necessidades de negócio de seus clientes. Essa plataforma é amplamente aplicada em diferentes indústrias para tratar grandes volumes de dados, gerando insights automatizados e facilitando a tomada de decisão.
+
+#### Problema ‼️
+O principal desafio enfrentado era o processo manual de configuração das fontes de dados. Esse processo, fundamental para a operação da plataforma, exigia muito tempo e envolvimento de técnicos especializados. A configuração manual não apenas limitava a agilidade na implantação da solução para os clientes, como também tornava a operação dependente de profissionais altamente qualificados para garantir que os dados estivessem corretamente preparados para os estágios subsequentes do pipeline.
+
+#### Solução Entregue ✅
+Para resolver esse problema, a equipe desenvolveu uma interface amigável e intuitiva que permitia a configuração das fontes de dados de forma automatizada. A solução envolveu o desenvolvimento de várias interfaces, incluindo uma para o cadastro de clientes, soluções e usuários, e outra para upload de arquivos CSV ou Excel com a visualização da estrutura de dados. Também foi criado um dashboard para administradores com visões quantitativas sobre os dados configurados. Além disso, a solução incluiu funcionalidades de mapeamento de campos-chave e aplicação de regras de negócios, além de um sistema de autenticação e auditoria para rastreabilidade. Isso trouxe benefícios como maior agilidade nas implantações e redução da dependência de técnicos especialistas
+
+Repositório: <a href="https://github.com/TechHorizonBR/API_3SEM.git">Clique aqui</a>
 
 #### Tecnologias Utilizadas
 Nesse projeto, utilizei as ferramentas: Spring Boot para desenvolver o Back-end Web Server, MySQL para banco de dados relacional, BR-Modelos para modelagem de dados, Figma para prototipação de Wareframes, HTML, CSS e JS para Front-end, Jira e Excel para gerenciamento de projetos, Git para versionamento de projetos e Github para armazenamento e publicação de arquivos.
@@ -58,24 +69,22 @@ Nesse projeto, utilizei as ferramentas: Spring Boot para desenvolver o Back-end 
 
 
 #### Hard Skills
-Apresente as hard skills que você utilizou/desenvolveu durante o projeto e o nível de proficiência alcançado. Exemplo: CSS - Sei fazer com autonomia
+- Java (Spring Boot) - Desenvolvi aplicações backend, configurando endpoints e integrações de forma autônoma.
+- MySQL - Utilizei para modelagem e gerenciamento de dados relacionais, com capacidade plena de criação de queries e ajustes no banco de dados.
+- IntelliJ IDEA - Ferramenta utilizada no desenvolvimento do projeto, com alto nível de proficiência na customização do ambiente e uso de plugins.
+- Git/GitHub - Versionamento de código e trabalho em equipe, com eficiência no uso de branches, pull requests e resolução de conflitos.
+- Postman - Testei e validei APIs durante o desenvolvimento, com conhecimento para criação de coleções de testes.
+- Figma - Para prototipagem de interfaces e colaboração no design da solução, utilizando a ferramenta com eficiência.
+- BR Modelo - Utilizado para modelagem de dados, com proficiência no uso de diagramas ER.
+- Jira - Organizei tarefas e acompanhei o desenvolvimento do projeto de acordo com a metodologia Scrum.
+- HTML5, CSS3, JavaScript - Usei no desenvolvimento frontend, criando interfaces responsivas e dinâmicas, com autonomia.
 
 #### Soft Skills
-Apresente as soft skills que você utilizou/desenvolveu durante o projeto e em quais situações elas foram fundamentais. Exemplo: Comunicação - Precisei exercitar minhas habilidades de comunicação para viabilizar as reuniões semanais levando em conta as disponibilidades dos membros, que não cursavam as mesmas disciplinas.
-
-### Em 2022-1
-Mesmo formato
-
-### Em 2022-2
-Mesmo formato
-
-### Em 2023-1
-Mesmo formato
-
-### Em 2023-2
-Mesmo formato
-
-
+- Comunicação - Foi essencial para alinhar as expectativas da equipe durante as reuniões de planejamento e revisões de sprint. A troca clara de informações agilizou a tomada de decisões.
+- Trabalho em equipe - A colaboração com designers e desenvolvedores frontend e backend foi fundamental para entregar uma solução integrada e funcional.
+- Organização - Utilizei ferramentas como Jira para gerenciar tarefas e prazos, mantendo a entrega do projeto dentro dos cronogramas estabelecidos.
+- Adaptabilidade - Houve a necessidade de ajustar a implementação das funcionalidades conforme feedbacks dos clientes e mudanças nos requisitos durante o processo de desenvolvimento.
+- Resolução de problemas - Enfrentei desafios técnicos na integração de dados e precisei aplicar soluções criativas e eficientes para garantir a continuidade do projeto sem impactar os prazos.
 
 
 
