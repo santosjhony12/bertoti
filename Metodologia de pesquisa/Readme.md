@@ -11,7 +11,7 @@ Me chamo Jhony. Tenho 19 anos. Sou um desenvolvedor de software com uma paixão 
 ## Meus Principais Conhecimentos
 Tenho conhecimento sólido em desenvolvimento web, utilizando frameworks como Django e Spring Boot para criação de aplicações robustas. No front-end, uso Vue.js com TypeScript, priorizando uma abordagem eficiente e reativa. Minha experiência com bancos de dados inclui MySQL para dados relacionais e MongoDB para dados NoSQL, aplicados de forma integrada em projetos como no uso do Oracle Cloud.
 
-No ambiente de desenvolvimento, utilizo Docker e WSL para garantir uma infraestrutura ágil e flexível. Também sou proficiente em automação e manipulação de dados com Power Query, Excel e VBA, onde integro fontes de dados de sistemas como SAP para gerar relatórios e KPIs para controle de produção.
+Possuo conhecimento em automação e manipulação de dados com Power Query, Excel e VBA, onde integro fontes de dados de sistemas como SAP para gerar relatórios e KPIs para controle de produção.
 
 Adoto metodologias ágeis, especialmente Scrum, para gerenciamento de projetos, e já desenvolvi soluções de visualização de dados usando Power BI. Tenho experiência na visualização de mapas utilizando MapTiler, aplicados em projetos Vue.js, o que me permite lidar com projetos que envolvem tanto o back-end quanto o front-end de forma eficaz.
 
@@ -31,7 +31,17 @@ Para resolver esse problema, a equipe desenvolveu uma interface amigável e intu
 Repositório: <a href="https://github.com/TechHorizonBR/API_3SEM.git">Clique aqui</a>
 
 #### Tecnologias Utilizadas
-Nesse projeto, utilizei as ferramentas: Spring Boot para desenvolver o Back-end Web Server, MySQL para banco de dados relacional, BR-Modelos para modelagem de dados, Figma para prototipação de Wareframes, HTML, CSS e JS para Front-end, Jira e Excel para gerenciamento de projetos, Git para versionamento de projetos e Github para armazenamento e publicação de arquivos.
+- Java 17: Uma versão estável da linguagem de programação Java, com melhorias de desempenho, novas funcionalidades, e suporte de longo prazo (LTS).
+- Spring Boot: Framework Java que simplifica o desenvolvimento de aplicações, oferecendo configurações automáticas e ferramentas prontas para criar serviços e APIs.
+- Spring Security: Módulo do Spring voltado para a segurança de aplicações, incluindo autenticação e autorização.
+- Hibernate: Framework de mapeamento objeto-relacional (ORM) que facilita a interação entre aplicações Java e bancos de dados relacionais.
+- HTML (HyperText Markup Language): Linguagem de marcação usada para criar a estrutura e o conteúdo básico de páginas da web.
+- CSS (Cascading Style Sheets): Linguagem de estilo utilizada para estilizar páginas da web, definindo cores, layouts e fontes.
+- JavaScript: Linguagem de programação usada para criar interatividade e dinamicidade em sites e aplicações web.
+- MySQL: Sistema de gerenciamento de banco de dados relacional amplamente utilizado para armazenar e consultar dados de forma estruturada.
+- Discord: Plataforma de comunicação em tempo real que permite enviar mensagens, realizar chamadas de voz e vídeo, além de criar comunidades organizadas por servidores.
+- Jira: Ferramenta de gerenciamento de projetos e acompanhamento de tarefas, frequentemente usada em equipes que seguem metodologias ágeis como Scrum ou Kanban.
+- BRModelo: Ferramenta gráfica para criação e modelagem de diagramas de banco de dados, como modelos entidade-relacionamento (ER).
 
 #### Contribuições Pessoais
 - Durante o projeto desenvolvi como back-end, front-end  e Scrum master. Fui responsável por criação de endpoints de rastreabilidade de usuário dentro do sistema, processamento e leitura de arquivos CSV, padronização de estilos no front-end, estruturação dos modelos conceituais e lógicos de banco de dados e acompanhamento de desenvolvimento da equipe de programação. 
@@ -80,12 +90,11 @@ Nesse projeto, utilizei as ferramentas: Spring Boot para desenvolver o Back-end 
 - HTML5, CSS3, JavaScript - Usei no desenvolvimento frontend, criando interfaces responsivas e dinâmicas, com autonomia.
 
 #### Soft Skills
-- Comunicação - Foi essencial para alinhar as expectativas da equipe durante as reuniões de planejamento e revisões de sprint. A troca clara de informações agilizou a tomada de decisões.
-- Trabalho em equipe - A colaboração com designers e desenvolvedores frontend e backend foi fundamental para entregar uma solução integrada e funcional.
-- Organização - Utilizei ferramentas como Jira para gerenciar tarefas e prazos, mantendo a entrega do projeto dentro dos cronogramas estabelecidos.
-- Adaptabilidade - Houve a necessidade de ajustar a implementação das funcionalidades conforme feedbacks dos clientes e mudanças nos requisitos durante o processo de desenvolvimento.
-- Resolução de problemas - Enfrentei desafios técnicos na integração de dados e precisei aplicar soluções criativas e eficientes para garantir a continuidade do projeto sem impactar os prazos.
-
+- Comunicação - Foi essencial para alinhar as expectativas da equipe durante as reuniões de planejamento e revisões de sprint. Utilizei principalmente sendo Scrum Master, quando alguns membros da equipe deixavam de realizar as tasks dentro do prazo.
+- Trabalho em equipe - Utilizei para desenvolver em conjunto o back-end, principalmente no momento da criação de rastreabilidade de usuário no sistema, solicitando ajuda aos demais.
+- Organização - Mediante prazos de entrega das Sprints e as disciplinas, precisei me organizar para cumprir conforme planejado, principalmente em períodos de provas.
+- Adaptabilidade - Houve a necessidade de ajustar a implementação das funcionalidades conforme feedbacks dos clientes e mudanças nos requisitos durante o processo de desenvolvimento, por exemplo, adicionar mais uma leitura de arquivo no final da Sprint 4.
+- Resolução de problemas - Enfrentei desafios técnicos na integração de dados, por exemplo, na leitura do arquivo CSV (Sprint 1), e precisei aplicar soluções criativas e eficientes para garantir a continuidade do projeto sem impactar os prazos.
 
 
 
